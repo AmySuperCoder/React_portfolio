@@ -1,19 +1,17 @@
 export default function Home() {
     return (
       <div>
-        <h1>Home Page</h1>
+        <h1>About Me</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-          velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-          ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-          non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-          ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-          rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-          tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-          porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-          vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-          fames ac ante ipsum primis in faucibus.
+         My name is Amy Griffith, and I'm on a journey to become a world-class developer. I have experience doing technical support for a software company and writing user manuals 
+         and other technical documents. One of my greatest strengths is that I have the heart of an educator. I have spent decades teaching other people, including working as a writer 
+         and editor at a computing magazine and teaching in middle school and high school classrooms. My writing and spoken explanations are clear and always geared toward helping 
+         others around me get a clear grasp on the topic at hand.
         </p>
       </div>
     );
   }
+
+ 
+        
+ 
