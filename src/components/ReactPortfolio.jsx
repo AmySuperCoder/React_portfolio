@@ -8,6 +8,7 @@ import Resume from './pages/Resume';
 import Footer from './Footer';
 import Header from './Header';
 
+
 export default function ReactPortfolio() {
   const [currentPage, setCurrentPage] = useState('Home');
 

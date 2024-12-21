@@ -58,7 +58,7 @@ export default function Contact() {
          <form onSubmit={handleSubmit}>
         <div>
         <div>
-            <label>Email: </label>
+            <label>Email:    </label>
            <input
              type="email"
              name="email"
@@ -70,7 +70,7 @@ export default function Contact() {
         </div>
         <div>
         <div>
-            <label>Name: </label>
+            <label>Name:    </label>
            <input
              type="text"
              name="name"
