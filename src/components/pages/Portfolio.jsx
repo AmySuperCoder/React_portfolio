@@ -1,12 +1,12 @@
 import PortfolioCard from "../PortfolioCard";
-import GLOimage from "../../Images/GLO.png"
+
 
 const cardsArray = [
   {
     image: "https://th.bing.com/th?id=OIP.WLDISq99tDfHenKgZtbJugHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
     title: "Weather API",
     linkGitHub: "https://github.com/AmySuperCoder/weather_API",
-    linkSite: "https://formik.org/docs/overview"
+    linkSite: "https://weather-api-uy9t.onrender.com/"
   },
   {
     image: "https://th.bing.com/th?id=OIP.Yk3DsUgspq06f-Qra2lfZgHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
@@ -52,9 +52,11 @@ export default function Blog() {
       <p>
         Please browse a portfolio of some of my recent projects.
       </p>
-      <div>
+      <div className="d-flex justify-content-center w-100">
+      <div className="d-flex flex-row mb-3 gap-4 flex-wrap justify-content-center">
         {renderCards()}
 
+      </div>
       </div>
     </div>
   );

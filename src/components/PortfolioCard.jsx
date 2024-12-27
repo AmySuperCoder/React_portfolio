@@ -4,8 +4,8 @@ export default function PortfolioCard({
     image, title, linkGitHub, linkSite
 }) {
     return (
-      <div className="d-flex flex-row mb-3">
-        <div className="p-2">
+      <div className="w-25">
+        <div>
         <img src={image}/>
         <h4>{title}</h4>
         <p>

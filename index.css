@@ -66,15 +66,16 @@ a:hover {
   position: relative;
 }
 
-input[type=text] {
+.input {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   box-sizing: border-box;
-  border: none;
-  background-color: #3CBC8D;
-  color: white;
 }
+
 
 message {
   width: 100%;
@@ -115,6 +116,14 @@ button:focus-visible {
   height: 20px;
   width: 100%;
   position: absolute;
+  bottom: 0;
+}
+
+.footerIcon {
+  height: 30px;
+  position: absolute;
+  display: flexbox;
+  justify-content: center;
   bottom: 0;
 }
 

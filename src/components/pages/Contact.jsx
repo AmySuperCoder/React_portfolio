@@ -65,6 +65,7 @@ export default function Contact() {
              onChange={handleChange}
              onBlur={handleBlur}
              value={values.email}
+             className='input'
            /></div>
            {errors.email && touched.email && errors.email}
         </div>
@@ -77,6 +78,7 @@ export default function Contact() {
              onChange={handleChange}
              onBlur={handleBlur}
              value={values.name}
+             className='input'
            /></div>
            {errors.name && touched.name && errors.name}
         </div>
