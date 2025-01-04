@@ -21,12 +21,14 @@
 
   position: relative;
   min-height: 100vh;
-  padding-bottom: 20px;
+  
 }
 
 body {
   padding: 1rem 2.5vw;
   width: 100vw;
+  min-height: 100vh;
+  background: linear-gradient(to right, #d3d0d1, #804c73);
 }
 
 .root {
@@ -53,7 +55,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right, #d3d0d1, #804c73);
+  
   
 }
 
@@ -68,7 +70,7 @@ a:hover {
   }
 
 .colors {
-  background: linear-gradient(to right, #d3d0d1, #804c73);
+  /* background: linear-gradient(to right, #d3d0d1, #804c73); */
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -144,14 +146,13 @@ button:focus-visible {
 
 Footer {
   display: flex;
-  position: absolute;
+  
   border: 20px;
   bottom: 0;
 }
 
 .footerIcon {
   height: 30px;
-  position: absolute;
   justify-content: center;
   bottom: 0;
 }
