@@ -1,4 +1,4 @@
-import NavTabs from './NavTabs'
+import Navtabs from './Navtabs.jsx'
 
 export default function Header({
     currentPage, handlePageChange
@@ -9,7 +9,7 @@ export default function Header({
             <h1>Amy Griffith</h1>
         </div>
     
-        <NavTabs currentPage={currentPage} handlePageChange={handlePageChange}></NavTabs>
+        <Navtabs currentPage={currentPage} handlePageChange={handlePageChange}></Navtabs>
       </div>
     );
   }

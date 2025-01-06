@@ -1,11 +1,11 @@
 import { useState } from 'react';
 
-import Home from './pages/Home';
-import Portfolio from './pages/Portfolio';
-import Contact from './pages/Contact';
-import Resume from './pages/Resume';
-import Footer from './Footer';
-import Header from './Header';
+import Home from './pages/Home.jsx';
+import Portfolio from './pages/Portfolio.jsx';
+import Contact from './pages/Contact.jsx';
+import Resume from './pages/Resume.jsx';
+import Footer from './Footer.jsx';
+import Header from './Header.jsx';
 
 
 export default function ReactPortfolio() {
