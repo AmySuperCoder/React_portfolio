@@ -24,6 +24,21 @@
   
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  padding: 20px;
+}
+.box {
+    padding: 20px;
+  margin: 10px;
+}
+
+.box h2 {
+  padding-bottom: 20px;
+}
+
 body {
   padding: 1rem 2.5vw;
   width: 100vw;
@@ -101,6 +116,14 @@ a:hover {
 
 .profile_image {
   height: 120px;
+}
+
+image {
+  height: 100px;
+}
+
+.w-25 > img {
+  height: 100px;
 }
 
 

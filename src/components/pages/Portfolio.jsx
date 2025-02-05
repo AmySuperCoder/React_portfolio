@@ -21,16 +21,18 @@ const cardsArray = [
     linkSite: "https://amysupercoder.github.io/vehicle_builder/"
   },
   {
-    image: "https://www.bing.com/th?id=OIP.N0AtQhkKsLW3Zys2wr4U4AAAAA&w=187&h=109&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
-    title: "Card 4",
+    image: "https://digitiz.fr/wp-content/uploads/2022/05/Tableau-Kanban.png",
+    title: "Kanban Board",
     linkGitHub: "https://github.com/AmySuperCoder/git-init-sample",
-    linkSite: "https://formik.org/docs/overview"
+    linkSite: "https://kanban-board-csbr.onrender.com"
+
+
   },
   {
-    image: "https://www.bing.com/th?id=OIP.N0AtQhkKsLW3Zys2wr4U4AAAAA&w=187&h=109&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2",
-    title: "Card 5",
-    linkGitHub: "https://github.com/AmySuperCoder/git-init-sample",
-    linkSite: "https://formik.org/docs/overview"
+    image: "https://www.thebalancemoney.com/thmb/_hhw8FYgxoWOSa8xr6Px0gjZ8_o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/resumes-8b08936faa564f55bcae3a57725846df.jpg",
+    title: "Candidate Search",
+    linkGitHub: "https://github.com/AmySuperCoder/Candidate_Search",
+    linkSite: "https://candidate-search-1-yf8j.onrender.com/"
   },
   {
     image: "https://github.com/whoenig44/bootcamp-project-1/blob/main/assets/images/backgroundImage.png?raw=true",
