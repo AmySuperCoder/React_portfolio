@@ -59,6 +59,10 @@ a:hover {
   color: #535bf2;
 }
 
+main {
+  min-height: 100vh;
+}
+
 .Header {
   position: relative;
   height: 100px;
@@ -89,7 +93,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  height: 75vh;
+    
   }
 
 .colors div {
@@ -100,9 +104,13 @@ a:hover {
 
 .gradient {
   background: linear-gradient(to right, #d3d0d1, #804c73);
-  height: 75vh;
+  height: 100%;
+  min-height: 100vh;
 }
 
+.height {
+  min-height: 80vh;
+}
 
 .input {
   width: 100%;

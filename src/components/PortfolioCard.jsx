@@ -6,7 +6,7 @@ export default function PortfolioCard({
     return (
       <div className="w-25">
         <div>
-        <img src={image}/>
+        <img style={{width: "150px", height: "150px"}} src={image}/>
         <h4>{title}</h4>
         <p>
         <a href={linkGitHub}>GitHub</a>

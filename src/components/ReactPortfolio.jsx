@@ -35,7 +35,7 @@ export default function ReactPortfolio() {
       
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
      
-      <main className="my-4">{renderPage()}</main>
+      <main className="my-4" className="height">{renderPage()}</main>
       <Footer className="Footer"></Footer>
     </>
   );
